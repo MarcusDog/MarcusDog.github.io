@@ -1,6 +1,6 @@
 # MarcusDog.github.io
 
-MarcusDog 的 GitHub Pages 个人首页。
+MarcusDog 的 GitHub Pages 个人首页，展示公开 GitHub 项目。
 
 访问地址：
 
