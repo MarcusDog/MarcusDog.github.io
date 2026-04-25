@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="MarcusDog 的 GitHub Pages 首页：AI Coding 项目、数据分析系统、机器学习原型与全栈作品集。"
+    />
+    <meta name="theme-color" content="#10110f" />
+    <title>MarcusDog | AI Coding Lab</title>
+    <link
+      rel="icon"
+      href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%23cbff4d"/><text x="32" y="40" text-anchor="middle" font-family="Arial" font-size="25" font-weight="900" fill="%2311140f">MD</text></svg>'
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="scroll-meter" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MarcusDog 首页">
+        <span class="brand-mark">MD</span>
+        <span>MarcusDog</span>
+      </a>
+      <nav class="site-nav" aria-label="主页导航">
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">GitHub</a>
+      </nav>
+      <a class="ghost-button" href="https://github.com/MarcusDog" target="_blank" rel="noreferrer">Profile</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">AI CODING / DATA SYSTEMS / PRODUCT PROTOTYPES</p>
+          <h1 id="hero-title">把数据、模型和业务系统做成可运行的作品。</h1>
+          <p class="hero-lede">
+            我在这里整理 AI Coding 项目：从真实数据采集、机器学习实验，到 Web 管理系统、可视化驾驶舱和答辩交付资产。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#projects">浏览作品</a>
+            <a class="secondary-button" href="https://github.com/MarcusDog/aicoding" target="_blank" rel="noreferrer">
+              查看仓库
+            </a>
+          </div>
+          <div class="hero-proof" aria-label="主页概览">
+            <span><strong>6</strong> projects</span>
+            <span><strong>18+</strong> services</span>
+            <span><strong>Data</strong> first</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="AI Coding 控制台预览">
+          <div class="console">
+            <div class="console-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+              <strong>lab.monitor</strong>
+            </div>
+            <div class="console-grid">
+              <div class="metric-tile">
+                <p>pipelines</p>
+                <strong>06</strong>
+                <div class="meter"><span></span></div>
+              </div>
+              <div class="metric-tile accent">
+                <p>model score</p>
+                <strong>94%</strong>
+              </div>
+              <div class="radar-tile">
+                <span class="radar-ring ring-one"></span>
+                <span class="radar-ring ring-two"></span>
+                <span class="radar-ring ring-three"></span>
+                <span class="radar-sweep"></span>
+                <span class="radar-dot dot-one"></span>
+                <span class="radar-dot dot-two"></span>
+                <span class="radar-dot dot-three"></span>
+              </div>
+              <div class="code-tile">
+                <span>collect.public_data()</span>
+                <span>train.evaluate()</span>
+                <span>api.serve()</span>
+                <span>dashboard.export()</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="技术关键词">
+        <div class="ticker-track">
+          <span>Vue 3</span>
+          <span>Django</span>
+          <span>FastAPI</span>
+          <span>Streamlit</span>
+          <span>Spring Boot</span>
+          <span>DuckDB</span>
+          <span>PySpark</span>
+          <span>Machine Learning</span>
+          <span>Risk Analytics</span>
+          <span>GIS Decision</span>
+        </div>
+      </section>
+
+      <section id="projects" class="section-shell projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">PROJECT VAULT</p>
+          <h2 id="projects-title">精选项目</h2>
+          <p>这些项目更像工程样机，而不是只停留在论文里的说明文字。可以按场景筛选查看。</p>
+        </div>
+
+        <div class="filter-bar" aria-label="项目筛选">
+          <button class="filter-chip active" type="button" data-filter="all">全部</button>
+          <button class="filter-chip" type="button" data-filter="data">数据分析</button>
+          <button class="filter-chip" type="button" data-filter="ai">AI 模型</button>
+          <button class="filter-chip" type="button" data-filter="web">Web 系统</button>
+          <button class="filter-chip" type="button" data-filter="governance">城市治理</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured" data-tags="data web">
+            <div class="card-topline">
+              <span>01</span>
+              <span>Vue / Django / ECharts</span>
+            </div>
+            <h3>上海市二手房价数据分析系统</h3>
+            <p>覆盖数据采集、清洗、后端接口、前端趋势看板和预测演示，适合展示完整的数据产品链路。</p>
+            <div class="mini-chart" aria-hidden="true">
+              <span style="height: 44%"></span>
+              <span style="height: 72%"></span>
+              <span style="height: 58%"></span>
+              <span style="height: 88%"></span>
+              <span style="height: 63%"></span>
+            </div>
+            <a href="https://github.com/MarcusDog/aicoding/tree/main/shanghai-house-price-analysis-system" target="_blank" rel="noreferrer">
+              查看项目
+            </a>
+          </article>
+
+          <article class="project-card" data-tags="ai web">
+            <div class="card-topline">
+              <span>02</span>
+              <span>Flask / Vue / Mini Program</span>
+            </div>
+            <h3>人脸识别考勤签到系统</h3>
+            <p>实现人脸注册、签到、GPS 半径校验、管理端统计与模型阈值校准，支持 Docker 本地部署。</p>
+            <a href="https://github.com/MarcusDog/aicoding/tree/main/face-attendance-system" target="_blank" rel="noreferrer">查看项目</a>
+          </article>
+
+          <article class="project-card" data-tags="data ai">
+            <div class="card-topline">
+              <span>03</span>
+              <span>DuckDB / FastAPI / Streamlit</span>
+            </div>
+            <h3>中国股指期货盘后分析系统</h3>
+            <p>接入中金所、央行、统计局公开数据，完成趋势、波动率、相关性和 VaR 风险分析。</p>
+            <a href="https://github.com/MarcusDog/aicoding/tree/main/%E5%9F%BA%E4%BA%8E%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%9A%84%E4%B8%AD%E5%9B%BD%E9%87%91%E8%9E%8D%E6%9C%9F%E8%B4%A7%E4%BA%A4%E6%98%93%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F" target="_blank" rel="noreferrer">
+              查看项目
+            </a>
+          </article>
+
+          <article class="project-card" data-tags="ai data">
+            <div class="card-topline">
+              <span>04</span>
+              <span>ML / API / Streamlit</span>
+            </div>
+            <h3>金融交易欺诈检测</h3>
+            <p>面向极度不平衡交易数据，包含防泄漏切分、多模型实验、阈值优化、本地 API 和驾驶舱展示。</p>
+            <a href="https://github.com/MarcusDog/aicoding/tree/main/%E5%9F%BA%E9%87%91%E8%9E%8D%E4%BA%A4%E6%98%93%E6%AC%BA%E8%AF%88%E6%A3%80%E6%B5%8B" target="_blank" rel="noreferrer">
+              查看项目
+            </a>
+          </article>
+
+          <article class="project-card" data-tags="web">
+            <div class="card-topline">
+              <span>05</span>
+              <span>Spring Boot / Vue / MySQL</span>
+            </div>
+            <h3>家教信息发布和求职平台</h3>
+            <p>面向家长、教员和管理员三类角色，覆盖认证、接单、审核、订单和统计分析流程。</p>
+            <a href="https://github.com/MarcusDog/aicoding/tree/main/%E5%9F%BA%E4%BA%8EWEB%E7%9A%84%E5%AE%B6%E6%95%99%E4%BF%A1%E6%81%AF%E5%8F%91%E5%B8%83%E5%92%8C%E6%B1%82%E8%81%8C%E5%B9%B3%E5%8F%B0" target="_blank" rel="noreferrer">
+              查看项目
+            </a>
+          </article>
+
+          <article class="project-card" data-tags="governance data">
+            <div class="card-topline">
+              <span>06</span>
+              <span>Python / Streamlit / GIS</span>
+            </div>
+            <h3>杨浦区地摊经济监测系统</h3>
+            <p>把投诉、候选点、天气和节假日放进可复现流水线，生成点位推荐、证据链和可视化。</p>
+            <a href="https://github.com/MarcusDog/aicoding/tree/main/%E6%9D%A8%E6%B5%A6%E5%8C%BA%E5%9C%B0%E6%91%8A%E7%BB%8F%E6%B5%8E%E7%9B%91%E6%B5%8B%E4%B8%8E%E7%82%B9%E4%BD%8D%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F" target="_blank" rel="noreferrer">
+              查看项目
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="stack" class="section-shell stack-section" aria-labelledby="stack-title">
+        <div class="section-heading">
+          <p class="eyebrow">SYSTEM MAP</p>
+          <h2 id="stack-title">技术矩阵</h2>
+          <p>我的项目通常从数据可信度开始，最后落到可以演示、可以截图、可以测试的产品界面。</p>
+        </div>
+        <div class="stack-board">
+          <div class="stack-column">
+            <h3>Data</h3>
+            <p>公开数据采集、清洗、特征工程、Parquet 数仓、论文图表导出。</p>
+          </div>
+          <div class="stack-column">
+            <h3>Model</h3>
+            <p>分类预测、风险度量、阈值校准、规则基线、模型评估和指标解释。</p>
+          </div>
+          <div class="stack-column">
+            <h3>Product</h3>
+            <p>Vue、Streamlit、Django、FastAPI、Spring Boot，把算法结果落到可操作界面。</p>
+          </div>
+          <div class="stack-column">
+            <h3>Delivery</h3>
+            <p>启动脚本、Docker Compose、测试、截图导出和答辩材料沉淀。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-shell contact-section" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">CONNECT</p>
+          <h2 id="contact-title">GitHub 入口</h2>
+          <p>更多源码、项目文档和后续迭代会继续放在 GitHub。</p>
+        </div>
+        <div class="contact-actions">
+          <a class="primary-button" href="https://github.com/MarcusDog" target="_blank" rel="noreferrer">GitHub Profile</a>
+          <a class="secondary-button" href="https://github.com/MarcusDog/aicoding" target="_blank" rel="noreferrer">AI Coding Repo</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>MarcusDog / AI Coding Lab</span>
+      <a href="#top">返回顶部</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
